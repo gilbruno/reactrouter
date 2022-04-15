@@ -53,3 +53,11 @@ h1 {
 .navbar {
   padding-bottom: 0;
 }
+
+button.connect {
+  padding-left:10px;
+}
+
+li.connect {
+  padding-left:40px;
+}
