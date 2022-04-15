@@ -24,6 +24,9 @@ function Menu() {
             <li className="nav-item">
                 <NavLink className="nav-link" to="/useState">Hook State</NavLink>
             </li>
+            <li className="nav-item">
+                <NavLink className="nav-link" to="/todo">Todo</NavLink>
+            </li>
             <li className="navbar-right connect">
                 <button className="btn btn-primary connect" onClick={handleConnect}>Connect</button>
             </li>

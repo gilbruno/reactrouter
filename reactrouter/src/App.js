@@ -5,6 +5,7 @@ import Docs from './components/Docs';
 import Tutorial from './components/Tutorial';
 import Community from './components/Community';
 import HookState from './components/HookState';
+import Todo from './components/Todo';
 import Menu from './components/Menu';
 
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/tutorial" element={<Tutorial/>}/>  
         <Route path="/community" element={<Community/>}/>  
         <Route path="/useState" element={<HookState/>}/>  
+        <Route path="/todo" element={<Todo/>}/>  
       </Routes>
   
       
