@@ -7,6 +7,7 @@ import Community from './components/Community';
 import HookState from './components/HookState';
 import Todo from './components/Todo';
 import Menu from './components/Menu';
+import CleanUseEffectContainer from './components/CleanUseEffectContainer';
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
         <Route path="/community" element={<Community/>}/>  
         <Route path="/useState" element={<HookState/>}/>  
         <Route path="/todo" element={<Todo/>}/>  
+        <Route path="/cleanUseEffect" element={<CleanUseEffectContainer/>}/>  
+
       </Routes>
   
       
