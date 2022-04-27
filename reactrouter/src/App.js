@@ -8,6 +8,7 @@ import HookState from './components/HookState';
 import Todo from './components/Todo';
 import Menu from './components/Menu';
 import CleanUseEffectContainer from './components/CleanUseEffectContainer';
+import Profile from './components/HookContext/Profile';
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
         <Route path="/useState" element={<HookState/>}/>  
         <Route path="/todo" element={<Todo/>}/>  
         <Route path="/cleanUseEffect" element={<CleanUseEffectContainer/>}/>  
-
+        <Route path="/hookcontext" element={<Profile/>}/>  
       </Routes>
   
       
