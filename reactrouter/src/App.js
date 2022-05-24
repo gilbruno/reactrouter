@@ -9,7 +9,7 @@ import Todo from './components/Todo';
 import Menu from './components/Menu';
 import CleanUseEffectContainer from './components/CleanUseEffectContainer';
 import Profile from './components/HookContext/Profile';
-
+import Count from './components/HookReducer/Count';
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
         <Route path="/todo" element={<Todo/>}/>  
         <Route path="/cleanUseEffect" element={<CleanUseEffectContainer/>}/>  
         <Route path="/hookcontext" element={<Profile/>}/>  
+        <Route path="/hookReducer" element={<Count/>}/>
       </Routes>
   
       

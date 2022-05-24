@@ -33,6 +33,9 @@ function Menu() {
             <li className="nav-item">
                 <NavLink className="nav-link" to="/hookContext">HookContext</NavLink>
             </li>
+            <li className="nav-item">
+                <NavLink className="nav-link" to="/hookReducer">HookReducer</NavLink>
+            </li>
             <li className="navbar-right connect">
                 <button className="btn btn-primary connect" onClick={handleConnect}>Connect</button>
             </li>
